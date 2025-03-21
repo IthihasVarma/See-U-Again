@@ -1,4 +1,4 @@
-# Project Title
+# See-U-Again
 
 ## Description
 This project is a Flask application that provides a web interface for searching data using a scraping function. It utilizes JWT for authentication and has several routes for different functionalities.
@@ -32,4 +32,4 @@ Access the application in your web browser at `http://localhost:5005`.
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache 2.0 License.
