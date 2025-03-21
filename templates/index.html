@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>See U Again</title>
+</head>
+<body>
+    <div class="container">
+        <h1>See U Again</h1>
+        <button id="start-button">Start Finding People</button>
+        
+        <div id="search-form" style="display:none;">
+            <h2>Search for a Person</h2>
+            <form id="person-search">
+                <label for="target-name">Target's Name (mandatory):</label>
+                <input type="text" id="target-name" name="target-name" required>
+                
+                <label for="first-name">First Name (optional):</label>
+                <input type="text" id="first-name" name="first-name">
+                
+                <label for="last-name">Last Name (optional):</label>
+                <input type="text" id="last-name" name="last-name">
+                
+                <label for="reference-pictures">Reference Pictures (optional):</label>
+                <input type="file" id="reference-pictures" name="reference-pictures" accept=".jpg" multiple>
+                
+                <label for="location">Location (optional):</label>
+                <input type="text" id="location" name="location">
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        <div id="results" style="display:none;">
+            <h2>Search Results</h2>
+            <div id="result-files"></div>
+            <button id="download-button">Download All Files</button>
+            <textarea id="feedback" placeholder="Leave your feedback here..."></textarea>
+            <button id="return-home">Return to Home</button>
+        </div>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>

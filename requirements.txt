@@ -1,0 +1,15 @@
+# Add your requirements here
+Flask
+scikit-learn
+sentence-transformers
+face_recognition
+requests
+beautifulsoup4
+selenium
+twocaptcha
+CLIP
+DeepLake
+faiss-cpu
+transformers
+pydub
+librosa
