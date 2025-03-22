@@ -16,6 +16,10 @@ The project is a Flask application that provides a web interface for searching u
    - Improve user validation in the `user_management.py` and `database.py` files.
    - Add error handling and user feedback mechanisms in the front end.
 
+4. **Documentation**: Update documentation to reflect any new features or changes made during development.
+
+5. **Testing**: Implement unit tests for the back end functionalities to ensure reliability and maintainability.
+
 ## How to Contribute
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
