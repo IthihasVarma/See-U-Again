@@ -33,3 +33,15 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 This project is licensed under the Apache 2.0 License.
+
+## Project Overview
+The See-U-Again project is a Flask application designed to provide a web interface for searching data using a scraping function. The application utilizes JWT for authentication and has several routes for different functionalities, including user management and data retrieval.
+
+The back end is built using Flask, which handles requests and responses, while the data scraping functionality is implemented using libraries such as BeautifulSoup and Selenium. The application is structured to allow for easy expansion and integration of additional features.
+
+## Current Status
+While the back end is functional, the front end is not yet fully developed. The following components are still missing:
+- Integration of the front end and back end: The user interface (UI) is not yet connected to the back end services.
+- Development of HTML and UI/UX: The HTML templates and user experience design have not been created, which means that users currently interact with the application through a basic interface.
+
+Contributors are welcome to help with the development of the front end, including creating HTML templates and ensuring a seamless integration with the back end services.
