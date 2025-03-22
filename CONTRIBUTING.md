@@ -20,6 +20,12 @@ The project is a Flask application that provides a web interface for searching u
 
 5. **Testing**: Implement unit tests for the back end functionalities to ensure reliability and maintainability.
 
+6. **Expand Test Coverage**: Add more tests for other user management functionalities, such as password reset and user profile updates.
+
+7. **Scraping Functionality Testing**: Implement unit tests for the scraping functionalities to ensure reliability.
+
+8. **Facial Recognition Testing**: Implement unit tests for the facial recognition functionalities to ensure reliability.
+
 ## How to Contribute
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
